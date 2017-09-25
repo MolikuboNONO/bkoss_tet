@@ -1,0 +1,905 @@
+<!DOCTYPE html>
+<html>
+	<head>
+<title>Pixiv</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<meta name="keywords" content="" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- bootstrap-css -->
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<!--// bootstrap-css -->
+<!-- css -->
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+<!--// css -->
+<!-- font-awesome icons -->
+<link href="css/font-awesome.css" rel="stylesheet"> 
+<!-- //font-awesome icons -->
+<!-- portfolio -->	
+<link rel="stylesheet" href="css/chocolat.css" type="text/css" media="all">
+<!-- //portfolio -->	
+<!-- font -->
+<link href="http://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700italic,700,400italic,300italic,300' rel='stylesheet' type='text/css'>
+<!-- //font -->
+
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script type="text/javascript" src="js/Setup.js" ></script>
+
+<script type="text/javascript">
+	jQuery(document).ready(function($){
+		$(".scroll").click(function(event){
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+</script>
+
+<!--plugin-->
+
+
+
+	</head>
+	<body>
+		
+		<!--banner-->
+		<div class="banner">
+			<div class="agileinfo-dot">
+				<div class="agileits-logo">
+					<h1><a href="index.html">Pixiv <span>gallery</span></a></h1>
+				</div>
+				<div class="header-top">
+					<div class="container">
+						<div class="header-top-info">
+							<nav class="navbar navbar-default">
+								<!--Brand and toggle get grouped for better mobile display -->
+								<div class="navbar-header">
+									<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+										<span class="sr-only">Toggle navigation</span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+								    </button>
+								</div>
+								
+								<!--Collect the nav links ,forms, and other content form toggleing-->
+								<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
+									<nav>
+										<ul class="nav navbar-nav">
+											<li class="active">,<a href="index.html">Home</a></li>
+											<li><a href="#about" class="scroll">About</a></li>
+											<li><a href="#gallery" class="scroll">Latest</a></li>
+											<li><a href="#team" class="scroll">Painter</a></li>
+											<li><a href="#blog" class="scroll">News</a></li>
+											<li><a href="#mail" class="scroll">Mail Us</a></li>
+										</ul>
+									</nav>
+								</div>
+								
+							</nav>
+						</div>
+					</div>
+				</div>
+			
+			
+			<div class="w3layouts-banner-info">
+				<div class="container">
+					<div class="w3layouts-banner-slide">
+						<div class="w3layouts-banner-top-slide">
+							<div class="slider">
+								<div class="callbacks_container">
+									<ul class="rslides callbacks callbacks1" id="slider4">
+										<li>
+											<div class="banner_text">
+												<h3>C92 PICK UP</h3>
+												<p>In volutpat metus quis velit malesuada</p>
+												<div class="w3-button">
+													<a href="#" data-toggle="modal" data-target="#myModal">Read More</a>													
+												</div>
+											</div>
+										</li>
+										<li>
+											<div class="banner_text">
+												<h3>PREVIOUS</h3>
+												<p>Nam imperdiet tellus nec enim tempus</p>
+												<div class="w3-button">
+													<a href="#" data-toggle="modal" data-target="#myModal02">Read More</a>
+												</div>
+											</div>
+										</li>
+									</ul>
+								</div>
+								<div class="clearfix"></div>
+								<script src="js/responsiveslides.min.js"></script>
+								<script>
+									$(function(){
+										//Slideshow 4
+										$("#slider4").responsiveSlides({
+											auto:true,
+											pager:true,
+											nav:true,
+											speed:500,
+											namespace:"callbacks",
+											before:function(){
+												$('.events').append("<li>before event fired.</li>");
+											},
+											after:function(){
+												$('.events').append("<li>after event fired.</li>");
+											}
+										});
+									});
+								</script>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+			</div>
+			
+		</div>
+		
+		
+		<!--About-->
+		<div class="about" id="about" >
+			<div class="container linebg">
+				
+				<div class="welcome">
+					<div class="agileits-title">
+						<h2>Welcom</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at placerat ante. Praesent nulla nunc, pretium dapibus efficitur in, auctor eget elit. Lorem ipsum dolor sit amet</p>
+					</div>
+				</div>
+				
+				
+				
+				<div class="about-w3lsrow" > 
+				<div class="col-md-7 col-sm-7 w3about-img"> 
+					<div class="w3about-text"> 
+						<h5 class="w3l-subtitle">- About Us</h5>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at placerat ante. Praesent nulla nunc, pretium dapibus efficitur in, auctor eget elit. Lorem ipsum dolor sit amet</p>
+					</div>
+				</div> 
+				<div class="clearfix"> </div>
+			    </div>
+			    
+			    
+			    
+			
+				
+			</div>
+		</div>
+		
+		<!--Mark-->
+		<div class="markets" id="markets">
+			<div class="container">
+				<div class="agileits-title">
+					<h3>
+						Our Information
+					</h3>
+				</div>
+					<div class="markets-grids">
+						<div class="col-md-4 w3ls-markets-grid">
+							<div class="agileits-icon-grid">
+								<div class="icon-left">
+									<i class="fa fa-pencil" aria-hidden="true"></i>
+								</div>
+								<div class="icon-right">
+									<h5>Painter</h5>
+									<p>Phasellus dapibus felis elit</p>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+						
+						<div class="col-md-4 w3ls-markets-grid">
+							<div class="agileits-icon-grid">
+								<div class="icon-left">
+									<i class="fa fa-amazon" aria-hidden="true"></i>
+								</div>
+								<div class="icon-right">
+									<h5>We Had Sold</h5>
+									<p id="cou" class="counter">1,560</p>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+						
+						<div class="col-md-4 w3ls-markets-grid">
+							<div class="agileits-icon-grid">
+								<div class="icon-left">
+									<i class="fa fa-android" aria-hidden="true"></i>
+								</div>
+								<div class="icon-right">
+									<h5>Android</h5>
+									<p id="android" >Android service is coming soon...</p>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+						
+						<div class="col-md-4 w3ls-markets-grid">
+							<div class="agileits-icon-grid">
+								<div class="icon-left">
+									<i class="fa fa-apple" aria-hidden="true"></i>
+								</div>
+								<div class="icon-right">
+									<h5>IOS PLUS</h5>
+									<p id="ios">IOS Plugin allready add!</p>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+						
+						<div class="col-md-4 w3ls-markets-grid">
+							<div class="agileits-icon-grid">
+								<div class="icon-left">
+									<i class="fa fa-bluetooth" aria-hidden="true"></i>
+								</div>
+								<div class="icon-right">
+									<h5>Use Bluetooth</h5>
+									<p>We also add bluetooth in app for share.</p>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+						
+						<div class="col-md-4 w3ls-markets-grid">
+							<div class="agileits-icon-grid">
+								<div class="icon-left">
+									<i class="fa fa-bitcoin" aria-hidden="true"></i>
+								</div>
+								<div class="icon-right">
+									<h5>Donation</h5>
+									<p>Uniquely designated email 12450@放肆.com</p>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+						
+						
+					</div>					
+					
+				</div>
+			</div>
+		</div>
+		
+    <script src="js/jquery.waypoints.min.js"></script>
+	<script src="js/jquery.countup.js"></script>
+		<script>
+			$('.counter').countUp();
+		</script>
+		
+	
+	<!--portfolio-->
+	<!--<div class="portfolio" id="gallery" style="background: url(img/line_4.png) no-repeat 0px 0px;">
+		<div class="container" >
+			<div class="agileits-title">
+				<h3>Our Painting</h3>
+			</div>
+			<ul class="simplefilter w3layouts agileits">
+				<li class="active w3layouts agileits" data-filter="all">ALL</li>
+				<li class="w3layouts agileits" data-filter="1">Category1</li>
+				<li class="w3layouts agileits" data-filter="2">Category2</li>
+				<li class="w3layouts agileits" data-filter="3">Category3</li>
+				<li class="w3layouts agileits" data-filter="4">Category4</li>
+				<li class="w3layouts agileits" data-filter="5">Category5</li>
+			</ul>
+			
+			<div class="filtr-container w3layouts agileits">
+				
+				<div class="filtr-item w3layouts agileits portfolio-t" data-category="1,5" data-sort = "Busy streets">
+					<a href="img/HACG_.jpg" class="b-link-strip w3layouts agileits b-animate-go thickbox">
+						<figure>
+							<img src="img/HACG_.jpg"  class="img-responsive w3layouts agileits" alt="W3layouts Agileits"/>
+							<figcaption>
+								<h3>Pixiv <span>Painting</span></h3>
+							</figcaption>
+						</figure>
+					</a>
+				</div>
+												
+				<div class="filtr-item w3layouts agileits" data-category="2, 5" data-sort="Luminous night">
+					<a href="img/Cate01.jpg" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+						<figure>
+							<img src="img/Cate01.jpg" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+							<figcaption>
+								<h3>Pixiv <span>Painting</span></h3>
+							</figcaption>
+						</figure>
+					</a>
+				</div>
+				
+				<div class="filtr-item w3layouts agileits" data-category="1, 4" data-sort="City wonders">
+					<a href="img/Cate02.jpg" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+						<figure>
+							<img src="img/Cate02.jpg" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+							<figcaption>
+								<h3>Pixiv <span>Painting</span></h3>
+							</figcaption>
+						</figure>
+					</a>
+				</div>
+				
+				<div class="filtr-item w3layouts agileits" data-category="3" data-sort="In production">
+					<a href="img/Cate03.jpg" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+						<figure>
+							<img src="img/Cate03.jpg" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+							<figcaption>
+								<h3>Pixiv <span>Painting</span></h3>
+							</figcaption>
+						</figure>
+					</a>
+				</div>
+				
+				<div class="filtr-item w3layouts agileits" data-category="3, 4" data-sort="Industrial site">
+					<a href="img/Cate04.jpg" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+						<figure>
+							<img src="img/Cate04.jpg" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+							<figcaption>
+								<h3>Pixiv <span>Painting</span></h3>
+							</figcaption>
+						</figure>
+					</a>
+				</div>
+				
+				<div class="filtr-item w3layouts agileits" data-category="2, 4" data-sort="Peaceful lake">
+					<a href="img/Cate05.jpg" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+						<figure>
+							<img src="img/Cate05.jpg" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+							<figcaption>
+								<h3>Pixiv <span>Painting</span></h3>
+							</figcaption>
+						</figure>
+					</a>
+				</div>
+				
+				<div class="filtr-item w3layouts agileits" data-category="2, 4" data-sort="Peaceful lake">
+					<a href="img/Cate06.jpg" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+						<figure>
+							<img src="img/Cate06.jpg" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+							<figcaption>
+								<h3>Pixiv <span>Painting</span></h3>
+							</figcaption>
+						</figure>
+					</a>
+				</div>
+				
+				<div class="filtr-item w3layouts agileits" data-category="2, 4" data-sort="Peaceful lake">
+					<a href="img/Cate07.jpg" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+						<figure>
+							<img src="img/Cate07.jpg" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+							<figcaption>
+								<h3>Pixiv <span>Painting</span></h3>
+							</figcaption>
+						</figure>
+					</a>
+				</div>
+				
+				
+				
+				<div class="clearfix"></div>
+				
+			</div>
+		</div>
+	</div>-->
+	
+	<div class="portfolio" id="gallery" style="background: url(img/line_4.png) no-repeat 0px 0px;">
+		<div class="container">
+			<div class="agileits-title"> 
+				<h3>Illustration</h3> 
+			</div>
+			<ul class="simplefilter w3layouts agileits">
+				<li class="active w3layouts agileits" data-filter="all">All</li>
+				<li class="w3layouts agileits" data-filter="1">Category1</li>
+				<li class="w3layouts agileits" data-filter="2">Category2</li>
+				<li class="w3layouts agileits" data-filter="3">Category3</li>
+				<li class="w3layouts agileits" data-filter="4">Category4</li>
+				<li class="w3layouts agileits" data-filter="5">Category5</li>
+			</ul>
+
+			<div class="filtr-container w3layouts agileits">
+
+				<div class="filtr-item w3layouts agileits portfolio-t" data-category="1, 5" data-sort="Busy streets">
+					<a href="img/Cate01.jpg" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+						<figure>
+							<img src="img/Cate01.jpg" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+							<figcaption>
+								<h3>Pixiv <span>Painting</span></h3>
+							</figcaption>
+						</figure>
+					</a>
+				</div>
+
+				<div class="filtr-item w3layouts agileits" data-category="2, 5" data-sort="Luminous night">
+					<a href="img/Cate02.jpg" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+						<figure>
+							<img src="img/Cate02.jpg" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+							<figcaption>
+								<h3>Pixiv <span>Painting</span></h3>
+							</figcaption>
+						</figure>
+					</a>
+				</div>
+
+				<div class="filtr-item w3layouts agileits" data-category="1, 4" data-sort="City wonders">
+					<a href="img/Cate03.jpg" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+						<figure>
+							<img src="img/Cate03.jpg" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+							<figcaption>
+								<h3>Pixiv <span>Painting</span></h3>
+							</figcaption>
+						</figure>
+					</a>
+				</div>
+
+				<div class="filtr-item w3layouts agileits" data-category="3" data-sort="In production">
+					<a href="img/Cate04.jpg" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+						<figure>
+							<img src="img/Cate04.jpg" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+							<figcaption>
+								<h3>Pixiv <span>Painting</span></h3>
+							</figcaption>
+						</figure>
+					</a>
+				</div>
+
+				<div class="filtr-item w3layouts agileits" data-category="3, 4" data-sort="Industrial site">
+					<a href="img/Cate05.jpg" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+						<figure>
+							<img src="img/Cate05.jpg" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+							<figcaption>
+								<h3>Pixiv <span>Painting</span></h3>
+							</figcaption>
+						</figure>
+					</a>
+				</div>
+
+				<div class="filtr-item w3layouts agileits" data-category="2, 4" data-sort="Peaceful lake">
+					<a href="img/Cate06.jpg" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+						<figure>
+							<img src="img/Cate06.jpg" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+							<figcaption>
+								<h3>Pixiv <span>Painting</span></h3>
+							</figcaption>
+						</figure>
+					</a>
+				</div>
+
+				<div class="filtr-item w3layouts agileits" data-category="1, 5" data-sort="City lights">
+					<a href="img/Cate07.jpg" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+						<figure>
+							<img src="img/Cate07.jpg" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+							<figcaption>
+								<h3>Pixiv <span>Painting</span></h3>
+							</figcaption>
+						</figure>
+					</a>
+				</div>
+
+				<div class="filtr-item w3layouts agileits" data-category="2, 4" data-sort="Dreamhouse">
+					<a href="img/Cate08.jpg" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+						<figure>
+							<img src="img/Cate08.jpg" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+							<figcaption>
+								<h3>Pixiv <span>Painting</span></h3>
+							</figcaption>
+						</figure>
+					</a>
+				</div>
+
+				<div class="filtr-item w3layouts agileits" data-category="2, 4" data-sort="Dreamhouse">
+					<a href="img/15.jpg" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+						<figure>
+							<img src="img/15.jpg" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+							<figcaption>
+								<h3>Pixiv <span>Painting</span></h3>
+							</figcaption>
+						</figure>
+					</a>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</div>
+	
+	
+	<div class="modal about-modal fade" id="myModal" tabindex="-1" role="dialog">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+					<h4 class="modal-title">Pixiv <span>Painting</span></h4>
+				</div>
+				
+				<div class="modal-body">
+					<div class="agileits-w3layouts-info">
+						<img src="img/Cate01.jpg" alt=""/>
+						<p>Duis venenatis, turpis eu bibendum porttitor, sapien quam ultricies tellus, ac rhoncus risus odio eget nunc. Pellentesque ac fermentum diam. Integer eu facilisis nunc, a iaculis felis. Pellentesque pellentesque tempor enim, in dapibus turpis porttitor quis. Suspendisse ultrices hendrerit massa. Nam id metus id tellus ultrices ullamcorper.  Cras tempor massa luctus, varius lacus sit amet, blandit lorem. Duis auctor in tortor sed tristique. Proin sed finibus sem</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+	
+	<div class="modal about-modal fade" id="myModal02" tabindex="-1" role="dialog">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+					<h4 class="modal-title">Pixiv <span>Painting</span></h4>
+				</div>
+				
+				<div class="modal-body">
+					<div class="agileits-w3layouts-info">
+						<img src="img/Cate02.jpg" alt=""/>
+						<p>Duis venenatis, turpis eu bibendum porttitor, sapien quam ultricies tellus, ac rhoncus risus odio eget nunc. Pellentesque ac fermentum diam. Integer eu facilisis nunc, a iaculis felis. Pellentesque pellentesque tempor enim</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+	
+	<!--testimonial-->
+	<div class="jarallax testimonial" id="testimonial">
+		<div class="testimonial-dot">
+			<div class="container">
+				<div class="agileits-title testimonial-heading">
+					<h3>Testimonial</h3>
+				</div>
+				<div class="w3-agile-testimonial">
+					<div class="slider">
+						<div class="callbacks_container">
+							<ul class="rslides callbacks callbacks1" id="slider3">
+								<li>
+									<div class="testimonial-img-grid">
+										<div class="testimonial-img t-img1">
+											<img src="img/te01.jpg" alt=""/>
+										</div>
+										<div class="testimonial-img">
+											<img src="img/te02_1.jpg" alt=""/>
+										</div>
+										<div class="testimonial-img t-img2">
+											<img src="img/te03_1.jpg" alt=""/>
+										</div>
+										<div class="clearfix"></div>
+									</div>
+									<div class="testimonial-img-info">
+										<p>Nunc interdum elit nec sapien vehicula, ut blandit nulla ultrices. Sed ullamcorper metus eget efficitur rutrum. Aliquam a nunc odio. Aenean fermentum finibus efficitur.</p>
+										<h5>Peter Guptill</h5>
+										<h6>Proin blandit</h6>
+									</div>
+								</li>
+								<li>
+									<div class="testimonial-img-grid">
+										<div class="testimonial-img t-img1">
+											<img src="img/te03_1.jpg" alt=""/>
+										</div>
+										<div class="testimonial-img">
+											<img src="img/te01.jpg" alt=""/>
+										</div>
+										<div class="testimonial-img t-img2">
+											<img src="img/te02_1.jpg"/>
+										</div>
+										<div class="clearfix">
+											
+										</div>
+									</div>
+									<div class="testimonial-img-info">
+										<p>Morbi est est, mollis id diam a, pellentesque dignissim lorem. Sed malesuada sed lacus sit amet vestibulum. Sed nibh purus, egestas eu orci vel, mollis interdum orci.</p>
+										<h5>Mary Jane</h5>
+										<h6>Lorem ipsum</h6>
+									</div>
+								</li>
+								<li>
+									<div class="testimonial-img-grid">
+										<div class="testimonial-img t-img1">
+											<img src="img/te02_1.jpg" alt=""/>
+										</div>
+										<div class="testimonial-img">
+											<img src="img/te03_1.jpg" alt=""/>
+										</div>
+										<div class="testimonial-img t-img2">
+											<img src="img/te01.jpg" alt=""/>
+										</div>
+										<div class="clearfix"></div>
+									</div>
+									<div class="testimonial-img-info">
+										<p>Proin blandit rhoncus metus porta tristique. Praesent suscipit in erat a tempor. Nullam tempor lectus ex, a auctor orci ultricies ac. Mauris sapien neque, condimentum sit</p>
+										<h5>Steven Wilson</h5>
+										<h6>Proin blandit</h6>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<div class="clearfix"></div>
+						<script >
+							$(window).load(function(){
+								//slideshow 4
+								$("#slider3").responsiveSlides({
+									auto:true,
+									pager:false,
+									nav:false,
+									speed:500,
+									namespace:"callbacks",
+									before:function(){
+										$('.events').append("<li>before event fired.</li>");
+									},
+									after:function(){
+										$('.events').append("<li>after event fired.</li>");
+									},
+								});
+							});
+						</script>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="team" id="team">
+		<div class="container">
+			<div class="agileits-title">
+				<h3>Painter In Pixiv</h3>
+			</div>
+			<div class="agileits-team-grids">
+				<div class="col-md-3 agileits-team-grid">
+					<div class="team-info">
+						<img src="img/t1_1.jpg" alt=""/>
+						<div class="team-caption">
+							<h4>Natsumi</h4>
+							<p>Fusce laoreet</p>
+							<ul>
+								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+							    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+							    <li><a href="#"><i class="fa fa-rss"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-md-3 agileits-team-grid">
+					<div class="team-info">
+						<img src="img/t2_1.jpg" alt=""/>
+						<div class="team-caption">
+							<h4>Soapy</h4>
+							<p>Fusce laoreet</p>
+							<ul>
+								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+							    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+							    <li><a href="#"><i class="fa fa-rss"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-md-3 agileits-team-grid">
+					<div class="team-info">
+						<img src="img/t3_1.jpg" alt=""/>
+						<div class="team-caption">
+							<h4>Ciya</h4>
+							<p>Fusce laoreet</p>
+							<ul>
+								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+							    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+							    <li><a href="#"><i class="fa fa-rss"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-md-3 agileits-team-grid">
+					<div class="team-info">
+						<img src="img/t4_1.jpg" alt=""/>
+						<div class="team-caption">
+							<h4>Kotoli</h4>
+							<p>Fusce laoreet</p>
+							<ul>
+								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+							    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+							    <li><a href="#"><i class="fa fa-rss"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				
+				
+			</div>
+		</div>
+	</div>
+	
+    <div id="blog" class="blog">
+		<div class="container"> 
+			<div class="agileits-title">
+				<h3>Our News</h3>
+			</div> 
+			<div class="wthree-blog-grids">
+				<div class="col-md-6 w3-agileits-blog-grid">
+					<div class="col-sm-4 col-xs-3 blog-left">
+						<h4>08/05</h4>
+						<ul>
+							<li>Posted : <a href="#">Admin</a></li>
+							<li>Likes : 32<li>
+							<li>Comments : (4)</li>
+						</ul>
+					</div>
+					<div class="col-sm-8 col-xs-9 blog-right">
+						<a href="#" data-toggle="modal" data-target="#myModal">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque imperdiet luctus gravida.</a>
+						<p>Sed ut feugiat felis. Morbi tempor ut nibh id consectetur. Morbi turpis arcu, interdum at feugiat non, iaculis id dui. Cras vestibulum dapibus volutpat. Fusce id molestie mauris, nec pulvinar nibh. </p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="col-md-6 w3-agileits-blog-grid">
+					<div class="col-sm-4 col-xs-3 blog-left">
+						<h4>08/17</h4>
+						<ul>
+							<li>Posted : <a href="#">Admin</a></li>
+							<li>Likes : 150<li>
+							<li>Comments : (8)</li>
+						</ul>
+					</div>
+					<div class="col-sm-8 col-xs-9 blog-right">
+						<a href="#" data-toggle="modal" data-target="#myModal">Etiam ut nibh quis magna placerat euismod ac id eros. Cras eleifend nulla vel eros blandit.</a>
+						<p>Duis sodales eleifend laoreet. Vestibulum luctus venenatis massa, in vulputate mi porta ac. Maecenas sollicitudin eros lectus, a rutrum nisi vulputate quis. Proin tempus, lectus vitae gravida</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="mail" id="mail">
+		<div class="container">
+			<div class="agileits-title">
+				<h3>Mail Us For Advise</h3>
+			</div>
+			<div class="w3_mail_grids">
+				<form action="#" method="post">
+					<span class="input input--jiro">
+						<input class="input__field input__field--jiro" type="text" id="input-10" name="Name" placeholder="Your Name" required=""/>
+						<label class="input__label input__label--jiro" for="input-10">
+							<span class="input__label-content input__label-content--jiro">Your Name</span>
+						</label>
+					</span>
+					
+					<span class="input input--jiro">
+						<input class="input__field input__field--jiro" type="email" id="input-11" name="Email" placeholder="Your Email Address" required=""/>
+						<label class="input__label input__label--jiro" for="input-11">
+							<span class="input__label-content input__label-content--jiro">Your Email</span>
+						</label>
+					</span>
+					
+					<span class="input input--jiro">
+						<input class="input__field input__field--jiro" type="text" id="input-12" name="Phone Number" placeholder="Phone Number" required=""/>
+						<label class="input__label input__label--jiro" for="input-12">
+							<span class="input__label-content input__label-content--jiro">Phone Number</span>
+						</label>
+					</span>
+					
+					<textarea name="Message" placeholder="Message..." required=""></textarea>
+					<input type="submit" value="Submit"/>
+					
+				</form>
+			</div>
+		</div>
+	</div>
+	<script>
+		(function(){
+			if(!String.prototype.trim)
+			{
+				(function(){
+					var rtrim = /^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g;
+					String.prototype.trim = function(){
+						return this.replace(rtrim,'');
+					};
+				});
+			}
+			
+			[].slice.call( document.querySelectorAll('input.input__field') ).forEach( function( inputEl) {
+				if(inputEl.value.trim() !== '')
+				{
+					classie.add( inputEl.parentNode, 'input--filled' );
+				}
+				
+				inputEl.addEventListener('focus',onInputFocus );
+				inputEl.addEventListener('Blur',onInputBlur );
+			});
+			
+			function onInputFocus(ev){
+				classie.add(ev.target.parentNode,'input--filled');
+			}
+			function onInputBlur(ev){
+				classie.remove(ev.target.parentNode,'input--filled');
+			}
+			
+		})();
+	</script>
+	
+	<!--fotter-->
+	<div class="footer">
+		<div class="container">
+			<div class="footer-top">
+				<div class="col-md-4 amet-sed">
+					<div class="footer-title">
+						<h3>About Pixiv</h3>
+					</div>
+					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+				</div>
+				
+				<div class="col-md-4 amet-sed amet-medium">
+					<div class="footer-title">
+						<h3>Twitter Feed</h3>
+					</div>
+					<p><a href="http://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF" target="_blank">http://paletton.com/</a>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt lorem sed velit fermentum eget placerat. </p>
+					<p><a href="https://typekit.com/" target="_blank">https://typekit.com/</a> Sed tincidunt lorem sed velit fermentum eget placerat. Lorem ipsum dolor sit, consectetur adipiscing elit. </p>
+				</div>
+				
+				<div class="col-md-4 amet-sed ">
+					<div class="footer-title">
+						<h3>Follow Us</h3>
+					</div> 
+				
+				
+				<div class="agileinfo-social-grids">
+					<ul>
+						<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="#"><i class="fa fa-rss"></i></a></li>
+						<li><a href="#"><i class="fa fa-vk"></i></a></li>
+					</ul>
+				</div>
+				
+				<div class="support">
+					<form action="#" method="post">
+						<input type="email"placeholder="Enter email...." required=""/>
+						<input type="submit" value="Subscribe" class="botton">
+					</form>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+	</div>
+	
+	<script src="js/jarallax.js"></script>
+	<script src="js/SmoothScroll.min.js"></script>
+	<script type="text/javascript">
+		$('.jarallax').jarallax({
+			speed:0.5,
+			imgWidth:1366,
+			imgHeight:768
+		})
+	</script>
+	<script src="js/responsiveslides.min.js"></script>
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$().UItoTop({easingType:'easeOutQuart'});
+		});
+	</script>
+	<script src="js/jquery.filterizr.js"></script>
+	<script src="js/controls.js"></script>	
+	<script type="text/javascript">
+		$(function(){
+			$('.filtr-container').filterizr();
+		});
+	</script>
+	
+	<script src="js/jquery.chocolat.js"></script>
+		<script type="text/javascript">
+			$(function(){
+				$('.filtr-item a').Chocolat();
+			});
+		</script>
+	</body>
+</html>
